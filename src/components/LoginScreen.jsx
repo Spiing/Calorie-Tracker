@@ -20,13 +20,13 @@ export default function LoginScreen({ onLogin, isLoading, error }) {
         <div className="w-6 h-6 rounded-md mb-14"
              style={{ background: "var(--accent)" }} />
 
-        <p className="section-cap mb-5" style={{ color: "var(--text-3)" }}>
+        <p className="section-cap mb-5" style={{ color: "var(--text-2)" }}>
           Nutrition Tracker
         </p>
 
         <h1 className="font-semibold tracking-tighter leading-[1.05]"
             style={{ fontSize: "2.8rem", color: "var(--text-1)" }}>
-          Hello.<br />
+          Hello, Welcom to Ping's Coaching<br />
           <span style={{ color: "var(--text-3)" }}>Sign in.</span>
         </h1>
       </div>
@@ -69,7 +69,7 @@ export default function LoginScreen({ onLogin, isLoading, error }) {
         </div>
 
         <p className="text-xs" style={{ color: "var(--text-3)" }}>
-          ข้อมูลถูกแยกเก็บเป็นส่วนตัว · Firebase Firestore
+          Contact IG: ping.kt for code · Firebase Firestore
         </p>
       </div>
     </div>
