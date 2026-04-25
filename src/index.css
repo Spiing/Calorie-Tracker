@@ -36,7 +36,10 @@
   }
 
   body {
-    background-color: red !important;
+    background-color: var(--surface-0);
+    color: var(--text-1);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 
   /* Remove number spinners */
